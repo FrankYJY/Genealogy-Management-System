@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DemoMain.class">
+   <children>
+      <Canvas height="295.0" layoutX="140.0" layoutY="54.0" width="389.0" />
+      <Circle fx:id="circle1" fill="DODGERBLUE" layoutX="327.0" layoutY="184.0" onMouseClicked="#clicktrial" radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>

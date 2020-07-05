@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/DemoStorage/Node.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DemoStorage/QQLogin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DemoStorage/TestDrawTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DemoStorage/TestPrintNode.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DemoStorage/TreePanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dataDealer/TreeInitializer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/scene/EditController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/scene/EditUserController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/scene/JiapuController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/scene/LoginController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/scene/Main.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/scene/TreeDrawing.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

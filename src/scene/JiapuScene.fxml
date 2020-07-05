@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scene.JiapuController">
+   <children>
+      <SplitPane dividerPositions="0.6976506639427987" prefHeight="681.0" prefWidth="981.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <HBox prefHeight="685.0" prefWidth="680.0">
+                     <children>
+                        <ScrollPane prefHeight="685.0" prefWidth="227.0">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="852.0" prefWidth="226.0">
+                                 <children>
+                                    <TextArea fx:id="chronicleList" editable="false" layoutY="4.0" prefHeight="824.0" prefWidth="227.0" />
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </ScrollPane>
+                        <Canvas fx:id="canvas" height="680.0" width="455.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <VBox prefHeight="681.0" prefWidth="293.0">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <GridPane alignment="CENTER" prefHeight="667.0" prefWidth="284.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="82.0" minWidth="10.0" prefWidth="72.0" />
+                            <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="116.0" minWidth="10.0" prefWidth="103.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="基本信息" GridPane.rowIndex="1" />
+                              <Label text="名字" GridPane.rowIndex="2" />
+                              <Label text="性别" GridPane.rowIndex="3" />
+                              <Label text="出生日期" GridPane.rowIndex="5" />
+                              <Label text="是否存活" GridPane.rowIndex="4" />
+                              <Label text="死亡日期" GridPane.rowIndex="6" />
+                              <Label text="婚姻状况" GridPane.rowIndex="7" />
+                              <Label text="地址" GridPane.rowIndex="8" />
+                              <Label text="第几代子嗣" GridPane.columnSpan="2" GridPane.rowIndex="9" />
+                              <Label text="父亲" GridPane.rowIndex="10" />
+                              <Label text="母亲" GridPane.rowIndex="11" />
+                              <Label text="子嗣" GridPane.rowIndex="12" />
+                              <Label text="附加信息" GridPane.rowIndex="13" />
+                              <TextField fx:id="name" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="gender" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextField fx:id="isAlive" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <TextField fx:id="birthday" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <TextField fx:id="deathday" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <TextField fx:id="marriage" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                              <TextField fx:id="address" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                              <TextField fx:id="generation" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                              <TextField fx:id="father" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                              <TextField fx:id="mother" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                              <TextField fx:id="descendents" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                              <TextField fx:id="extra" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <TextField fx:id="nameToSearch" GridPane.columnIndex="1" />
+                              <Button fx:id="searchButton" mnemonicParsing="false" onAction="#search" prefHeight="23.0" prefWidth="125.0" text="查找/空值为刷新" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label text="按名字查找：" />
+                              <Label prefHeight="35.0" prefWidth="123.0" text="修改信息" GridPane.rowIndex="14" />
+                              <Button fx:id="editButton" mnemonicParsing="false" onAction="#toEditScene" prefHeight="24.0" prefWidth="118.0" text="修改（管理员）" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                              <Label prefHeight="35.0" prefWidth="123.0" text="以下两人是否" GridPane.rowIndex="15" />
+                              <Label prefHeight="35.0" prefWidth="123.0" text="有直系关系" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                              <TextField fx:id="checkRelative1" GridPane.rowIndex="16" />
+                              <TextField fx:id="checkRelative2" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+                              <Button fx:id="checkButton1" mnemonicParsing="false" onAction="#check" prefHeight="24.0" prefWidth="116.0" text="检查两人关系" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+                              <TextField fx:id="checkResult" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+                              <Label prefHeight="35.0" prefWidth="123.0" text="检查结果：" GridPane.rowIndex="18" />
+                              <Label prefHeight="35.0" prefWidth="123.0" text="修改用户信息" GridPane.rowIndex="19" />
+                              <Button fx:id="editUserButton" mnemonicParsing="false" onAction="#toEditUserScene" prefHeight="24.0" prefWidth="118.0" text="修改用户" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </VBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</Pane>
