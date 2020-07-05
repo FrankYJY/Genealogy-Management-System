@@ -14,5 +14,6 @@ quest for whether two people are lineally related
 show in graphic 
 
 the explanation which is my report, is written in chinese, if you need version of other language, try google translation
+explanation video(in chinese):https://www.bilibili.com/video/BV1nz4y1X7rp/
 
 currently, the system cannot accept repeated name, but my thought of solution is written in 3.4 in explanation.
