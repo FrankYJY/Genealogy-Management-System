@@ -1,5 +1,5 @@
-# FamilyTree
-A family tree management system
+# Genealogy 家谱
+A genealogy management system
 
 Java x JavaFX(fxml)  
 
